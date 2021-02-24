@@ -1,27 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lesson 11, additional task</title>
+    <title>Additional task</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <h1>Today's task</h1>
-    <div>
+    <h1>Today's tasks</h1>
+    <div class="pointer">
         <ul>
-            <li>Buy milk</li>
-            <li>Learn HTML</li>
-            <li>Write some amazing CSS</li>
-            <li>Be awesome</li>
+            <div>
+                <li class="buy-milk">
+                    <input type="checkbox" id="buy" checked>
+                    <label for="buy">Buy milk</label>
+                    <a href="">X</a>
+                </li>
+            </div>
+            <div>
+                <li class="learn-html">
+                    <input type="checkbox" id="learn" checked>
+                    <label for="learn">Learn HTML</label>
+                    <a href="">X</a>
+                </li>
+            </div>
+            <div>
+                <li class="write-css">
+                    <input type="checkbox" id="write">
+                    <label for="write">Write some amazing CSS</label>
+                    <a href="">X</a>
+                </li>
+            </div>
+            <div>
+                <li class="be-awesome">
+                    <input type="checkbox" id="be" checked>
+                    <label for="be">Be awesome</label>
+                    <a href="">X</a>
+                </li>
+            </div>
         </ul>
+    </div>
+    <div id="yellow-box">
+        <h2>Add new task</h2>
+        <form action="" method="POST">
+            <div>
+                <label for="new-task">New task:</label>
+                <input type="text" id="new-task">
+            </div>
+            <div>
+                <input type="button" value="Add" id="button">
+            </div>
 
-
-
-
+        </form>
     </div>
 
-    
 </body>
+
 </html>

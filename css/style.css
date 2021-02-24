@@ -1,0 +1,75 @@
+body {
+    background-color: #c4f5cd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+    color: #6a6e6e;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.buy-milk {
+    background-color: #fff;
+    border: 1px solid grey;
+    border-bottom: none;
+}
+
+.learn-html {
+    background-color: #a2d986;
+    border: 1px solid grey;
+    border-bottom: none;
+}
+
+.write-css {
+    background-color: #fff;
+    border: 1px solid grey;
+    border-bottom: none;
+}
+
+.be-awesome {
+    background-color: #a2d986;
+    border: 1px solid grey;
+}
+
+.buy-milk:hover, .learn-html:hover, .write-css:hover, .be-awesome:hover {
+    background-color: seagreen;
+}
+
+a {
+    float: right;
+    background-color: red;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: pink;
+    text-decoration: underline;
+}
+
+.pointer:hover {
+    cursor: pointer;
+    
+}
+
+#yellow-box {
+    background-color: yellow;
+    height: 200px;
+    padding: 30px;
+}
+
+#button {
+    background-color: teal;
+    height: 30px;
+    width: 125px;
+    margin-top: 30px;
+    color: #fff;
+    border: 1px solid grey;
+    border-radius: 7px;
+
+}
